@@ -1,10 +1,10 @@
-//  Start Of JavaScript//
+//  Start Of JavaScript //
 
 const a = "Data/about.txt";
 
-const b ="Posts/post.txt";
+const b = "Posts/post.txt";
 
-const c ="Posts/post2.txt";
+const c = "Posts/post2.txt";
 
 function getdata(link) {
 
@@ -19,12 +19,12 @@ function getdata(link) {
     xhr.onload = function () {
 
         const c = xhr.responseText;
-        
+
         const d = document.getElementById("container");
         d.innerHTML = c;
-        
+
     }
-    
+
 }
 
 // End of Javascript //
